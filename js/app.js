@@ -126,63 +126,58 @@ let score='';
 // qus5 ();
 
 // qus6
-let qus6= function () {
- let numericGuess = prompt(' Guess my age - it is betwwen 20 and 30 ?');
-//console.log(traveller);
+// let qus6= function () {
+//  let numericGuess = prompt(' Guess my age - it is betwwen 20 and 30 ?');
+// //console.log(traveller);
 
-for (let i=0;i<3;i++){if (numericGuess > 27) {
-  alert('  too high');
-  numericGuess = prompt(' Guess my age - it is betwwen 20 and 30 ?');
-
-
-}else if (numericGuess <27 ){
-  alert('  too low');numericGuess = prompt(' Guess my age - it is betwwen 20 and 30 ?');}
-else if (numericGuess==27) {
-  alert('correct');
-  score++;
-  break;
-}
-}};
-qus6 ();
-// alert('It is a gueesing Game, you have 6 trials to guess my favorit resturent?');
+// for (let i=0;i<3;i++){if (numericGuess > 27) {
+//   alert('  too high');
+//   numericGuess = prompt(' Guess my age - it is betwwen 20 and 30 ?');
 
 
-
-// let userAnswer = false;
-// let favRst = ['qaiser', 'mac', 'abu-shekha', 'daiaa'];
-// for (let i = 0; i < 6; i++) {
-//     let rstQ = prompt('what is  my favourit resturint?');
-
-//     for (let j = 0; j < favRst.length; j++) {
-
-
-//         if (rstQ == favRst[j]) {
-//             alert(' you guessed correctly');
-//             userAnswer = true;
-//             //   score++;
-//             break;
-//         }
-
-//     } if (userAnswer == true) {
-//         break;
-//     }
-//     else if (i == 5) {
-//         alert('these are my favourite resturents  ' + favRst);
-//     }
-//     else if (userAnswer == false) {
-//         alert('try again');
-//     }
-
+// }else if (numericGuess <27 ){
+//   alert('  too low');numericGuess = prompt(' Guess my age - it is betwwen 20 and 30 ?');}
+// else if (numericGuess==27) {
+//   alert('correct');
+//   score++;
+//   break;
 // }
+// }};
+// qus6 ();
+
+// qus7
+let qus7= function () {
+alert('It is a gueesing Game, you have 6 trials to guess my favorit resturent?');
+let userAnswer = false;
+let favRst = ['qaiser', 'mac', 'abu-shekha', 'daiaa'];
+for (let i = 0; i < 6; i++) {
+    let rstQ = prompt('what is  my favourit resturint?');
+
+    for (let j = 0; j < favRst.length; j++) {
+
+
+        if (rstQ == favRst[j]) {
+            alert(' you guessed correctly');
+            userAnswer = true;
+            //   score++;
+            break;
+        }
+
+    } if (userAnswer == true) {
+        break;
+    }
+    else if (i == 5) {
+        alert('these are my favourite resturents  ' + favRst);
+    }
+    else if (userAnswer == false) {
+        alert('try again');
+    }
+
+}};
+qus7();
 
 
 // confirm('you are above 18?');
 
 // alert('Thank you ' + userName + ' Hope you have great time'+'your score is '+score );
 
-var gopher = 1;
- if (gopher < 10) 
-    console.log(gopher);
- else {
-   console.log('potato');
- }
