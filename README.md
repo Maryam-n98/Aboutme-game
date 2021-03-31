@@ -14,3 +14,8 @@ I used HTML,CSS,and JS are to creat this website..
  used loops, if statement,swutch in this code.
 
 The license for the code is (MIT).
+
+## Lab 04
+I'm Maryam Najjar I was the driver in this part of the lab, I added functions to the code, Reem Bani Ali was navigator.
+I have the greater partner in the world, We really enjoyed together.
+   
