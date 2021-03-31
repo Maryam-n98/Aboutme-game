@@ -77,50 +77,53 @@ let score='';
 // qus3 ();
 
 // qus4
-let qus4= function () {
-let distination = prompt(' Was USA  my last disination?');
-distination = distination.toLowerCase();
-//console.log(distination);
+// let qus4= function () {
+// let distination = prompt(' Was USA  my last disination?');
+// distination = distination.toLowerCase();
+// //console.log(distination);
 
-switch (distination) {
-case distination = 'yes':
-case distination = 'y':
-  // console.log(distination);
-  alert('wrong, but it is intersting country!');
-  break;
-
-case distination = 'no':
-case distination = 'n':
-  //console.log(distination);
-  alert(' You are right:(');
-  score++;
-  break;
-default:
-  alert('please write yes/y or no/n');
-} };
-qus4 ();
-
-// let cost = prompt(' Do you think my last trip coast me more than $8000?');
-// cost = cost.toLowerCase();
-// //console.log(cost);
-
-// switch (cost) {
-// case cost = 'yes':
-// case cost = 'y':
-//   //console.log(cost);
-//   alert('wrong');
+// switch (distination) {
+// case distination = 'yes':
+// case distination = 'y':
+//   // console.log(distination);
+//   alert('wrong, but it is intersting country!');
 //   break;
 
-// case cost = 'no':
-// case cost = 'n':
-//   //console.log(cost);
-//   alert('true, It cost me less');
+// case distination = 'no':
+// case distination = 'n':
+//   //console.log(distination);
+//   alert(' You are right:(');
 //   score++;
 //   break;
 // default:
 //   alert('please write yes/y or no/n');
-// }
+// } };
+// qus4 ();
 
+
+// qus5
+let qus5= function () {
+let cost = prompt(' Do you think my last trip coast me more than $8000?');
+cost = cost.toLowerCase();
+//console.log(cost);
+
+switch (cost) {
+case cost = 'yes':
+case cost = 'y':
+  //console.log(cost);
+  alert('wrong');
+  break;
+
+case cost = 'no':
+case cost = 'n':
+  //console.log(cost);
+  alert('true, It cost me less');
+  score++;
+  break;
+default:
+  alert('please write yes/y or no/n');
+}};
+qus5 ();
 //  let numericGuess = prompt(' Guess my age - it is betwwen 20 and 30 ?');
 // //console.log(traveller);
 
