@@ -6,47 +6,48 @@
 // alert('welcom ' + userName + ' we are happy to have you here :)');
 let score='';
 // q1
-let qus1= function () {
-let traveller = prompt(' Do you think I am traveling right now?');
-traveller = traveller.toLowerCase();
-//console.log(traveller);
-// eslint-disable-next-line no-constant-condition
-if (traveller == 'yes' || 'y') {
-  alert('you are wrong');
-  //console.log(traveller);
-}
-// eslint-disable-next-line no-constant-condition
-else if (traveller == 'no' || 'n') {
-
-  alert(' You are right');
-  score++;
-  //console.log(traveller);
-
-} else {
-  alert('please write yes/y or no/n');
-}
-};
-qus1 ();
-
-
-// let loveTraveling = prompt(' do think I like to travel?');
-// loveTraveling = loveTraveling.toLowerCase();
-// // console.log(loveTraveling);
-// switch (loveTraveling) {
-// case loveTraveling = 'yes':
-// case loveTraveling = 'y':
-//   alert('correct');
-//   score++;
-//   break;
-// case loveTraveling = 'no':
-// case loveTraveling = 'n':
-//   // console.log(loveTraveling);
-//   alert('this is not true! ');
-//   break;
-// default:
-//   alert('please write yes/y or no/n');
-
+// let qus1= function () {
+// let traveller = prompt(' Do you think I am traveling right now?');
+// traveller = traveller.toLowerCase();
+// //console.log(traveller);
+// // eslint-disable-next-line no-constant-condition
+// if (traveller == 'yes' || 'y') {
+//   alert('you are wrong');
+//   //console.log(traveller);
 // }
+// // eslint-disable-next-line no-constant-condition
+// else if (traveller == 'no' || 'n') {
+
+//   alert(' You are right');
+//   score++;
+//   //console.log(traveller);
+
+// } else {
+//   alert('please write yes/y or no/n');
+// }
+// };
+// qus1 ();
+// qus2
+let qus2= function () {
+let loveTraveling = prompt(' do think I like to travel?');
+loveTraveling = loveTraveling.toLowerCase();
+// console.log(loveTraveling);
+switch (loveTraveling) {
+case loveTraveling = 'yes':
+case loveTraveling = 'y':
+  alert('correct');
+  score++;
+  break;
+case loveTraveling = 'no':
+case loveTraveling = 'n':
+  // console.log(loveTraveling);
+  alert('this is not true! ');
+  break;
+default:
+  alert('please write yes/y or no/n');
+
+} };
+qus2 ();
 
 // let travelingNumber = prompt(' Do you think I have traveled more than three times?');
 // travelingNumber = travelingNumber.toLowerCase();
