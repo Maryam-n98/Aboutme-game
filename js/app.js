@@ -27,48 +27,54 @@ let score='';
 // }
 // };
 // qus1 ();
+
+
 // qus2
-let qus2= function () {
-let loveTraveling = prompt(' do think I like to travel?');
-loveTraveling = loveTraveling.toLowerCase();
-// console.log(loveTraveling);
-switch (loveTraveling) {
-case loveTraveling = 'yes':
-case loveTraveling = 'y':
-  alert('correct');
-  score++;
-  break;
-case loveTraveling = 'no':
-case loveTraveling = 'n':
-  // console.log(loveTraveling);
-  alert('this is not true! ');
-  break;
-default:
-  alert('please write yes/y or no/n');
-
-} };
-qus2 ();
-
-// let travelingNumber = prompt(' Do you think I have traveled more than three times?');
-// travelingNumber = travelingNumber.toLowerCase();
-// //console.log(travelingNumber);
-
-// switch (travelingNumber) {
-// case travelingNumber = 'yes':
-// case travelingNumber = 'y':
-//   //console.log(travelingNumber);
-//   alert('I hope, but this is not the right answer!');
-//   break;
-// case travelingNumber = 'no':
-// case travelingNumber = 'n':
-//   //console.log(travelingNumber);
-//   alert('this is correct');
+// let qus2= function () {
+// let loveTraveling = prompt(' do think I like to travel?');
+// loveTraveling = loveTraveling.toLowerCase();
+// // console.log(loveTraveling);
+// switch (loveTraveling) {
+// case loveTraveling = 'yes':
+// case loveTraveling = 'y':
+//   alert('correct');
 //   score++;
+//   break;
+// case loveTraveling = 'no':
+// case loveTraveling = 'n':
+//   // console.log(loveTraveling);
+//   alert('this is not true! ');
 //   break;
 // default:
 //   alert('please write yes/y or no/n');
-// }
 
+// } };
+// qus2 ();
+
+
+// qus3
+let qus3= function () {
+let travelingNumber = prompt(' Do you think I have traveled more than three times?');
+travelingNumber = travelingNumber.toLowerCase();
+//console.log(travelingNumber);
+
+switch (travelingNumber) {
+case travelingNumber = 'yes':
+case travelingNumber = 'y':
+  //console.log(travelingNumber);
+  alert('I hope, but this is not the right answer!');
+  break;
+case travelingNumber = 'no':
+case travelingNumber = 'n':
+  //console.log(travelingNumber);
+  alert('this is correct');
+  score++;
+  break;
+default:
+  alert('please write yes/y or no/n');
+}
+};
+qus3 ();
 // let distination = prompt(' Was USA  my last disination?');
 // distination = distination.toLowerCase();
 // //console.log(distination);
