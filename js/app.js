@@ -102,44 +102,48 @@ let score='';
 
 
 // qus5
-let qus5= function () {
-let cost = prompt(' Do you think my last trip coast me more than $8000?');
-cost = cost.toLowerCase();
-//console.log(cost);
+// let qus5= function () {
+// let cost = prompt(' Do you think my last trip coast me more than $8000?');
+// cost = cost.toLowerCase();
+// //console.log(cost);
 
-switch (cost) {
-case cost = 'yes':
-case cost = 'y':
-  //console.log(cost);
-  alert('wrong');
-  break;
+// switch (cost) {
+// case cost = 'yes':
+// case cost = 'y':
+//   //console.log(cost);
+//   alert('wrong');
+//   break;
 
-case cost = 'no':
-case cost = 'n':
-  //console.log(cost);
-  alert('true, It cost me less');
-  score++;
-  break;
-default:
-  alert('please write yes/y or no/n');
-}};
-qus5 ();
-//  let numericGuess = prompt(' Guess my age - it is betwwen 20 and 30 ?');
-// //console.log(traveller);
-
-// for (let i=0;i<3;i++){if (numericGuess > 27) {
-//   alert('  too high');
-//   numericGuess = prompt(' Guess my age - it is betwwen 20 and 30 ?');
-
-
-// }else if (numericGuess <27 ){
-//   alert('  too low');numericGuess = prompt(' Guess my age - it is betwwen 20 and 30 ?');}
-// else if (numericGuess==27) {
-//   alert('correct');
+// case cost = 'no':
+// case cost = 'n':
+//   //console.log(cost);
+//   alert('true, It cost me less');
 //   score++;
 //   break;
-// }
-// }
+// default:
+//   alert('please write yes/y or no/n');
+// }};
+// qus5 ();
+
+// qus6
+let qus6= function () {
+ let numericGuess = prompt(' Guess my age - it is betwwen 20 and 30 ?');
+//console.log(traveller);
+
+for (let i=0;i<3;i++){if (numericGuess > 27) {
+  alert('  too high');
+  numericGuess = prompt(' Guess my age - it is betwwen 20 and 30 ?');
+
+
+}else if (numericGuess <27 ){
+  alert('  too low');numericGuess = prompt(' Guess my age - it is betwwen 20 and 30 ?');}
+else if (numericGuess==27) {
+  alert('correct');
+  score++;
+  break;
+}
+}};
+qus6 ();
 // alert('It is a gueesing Game, you have 6 trials to guess my favorit resturent?');
 
 
