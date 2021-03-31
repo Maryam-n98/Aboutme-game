@@ -4,25 +4,29 @@
 // let userName = prompt('what is your name ?');
 // //console.log(userName);
 // alert('welcom ' + userName + ' we are happy to have you here :)');
-// let score='';
-// let traveller = prompt(' Do you think I am traveling right now?');
-// traveller = traveller.toLowerCase();
-// //console.log(traveller);
-// // eslint-disable-next-line no-constant-condition
-// if (traveller == 'yes' || 'y') {
-//   alert('you are wrong');
-//   //console.log(traveller);
-// }
-// // eslint-disable-next-line no-constant-condition
-// else if (traveller == 'no' || 'n') {
+let score='';
+// q1
+let qus1= function () {
+let traveller = prompt(' Do you think I am traveling right now?');
+traveller = traveller.toLowerCase();
+//console.log(traveller);
+// eslint-disable-next-line no-constant-condition
+if (traveller == 'yes' || 'y') {
+  alert('you are wrong');
+  //console.log(traveller);
+}
+// eslint-disable-next-line no-constant-condition
+else if (traveller == 'no' || 'n') {
 
-//   alert(' You are right');
-//   score++;
-//   //console.log(traveller);
+  alert(' You are right');
+  score++;
+  //console.log(traveller);
 
-// } else {
-//   alert('please write yes/y or no/n');
-// }
+} else {
+  alert('please write yes/y or no/n');
+}
+};
+qus1 ();
 
 
 // let loveTraveling = prompt(' do think I like to travel?');
