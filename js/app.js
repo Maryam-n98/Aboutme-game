@@ -53,48 +53,52 @@ let score='';
 
 
 // qus3
-let qus3= function () {
-let travelingNumber = prompt(' Do you think I have traveled more than three times?');
-travelingNumber = travelingNumber.toLowerCase();
-//console.log(travelingNumber);
+// let qus3= function () {
+// let travelingNumber = prompt(' Do you think I have traveled more than three times?');
+// travelingNumber = travelingNumber.toLowerCase();
+// //console.log(travelingNumber);
 
-switch (travelingNumber) {
-case travelingNumber = 'yes':
-case travelingNumber = 'y':
-  //console.log(travelingNumber);
-  alert('I hope, but this is not the right answer!');
-  break;
-case travelingNumber = 'no':
-case travelingNumber = 'n':
-  //console.log(travelingNumber);
-  alert('this is correct');
-  score++;
-  break;
-default:
-  alert('please write yes/y or no/n');
-}
-};
-qus3 ();
-// let distination = prompt(' Was USA  my last disination?');
-// distination = distination.toLowerCase();
-// //console.log(distination);
-
-// switch (distination) {
-// case distination = 'yes':
-// case distination = 'y':
-//   // console.log(distination);
-//   alert('wrong, but it is intersting country!');
+// switch (travelingNumber) {
+// case travelingNumber = 'yes':
+// case travelingNumber = 'y':
+//   //console.log(travelingNumber);
+//   alert('I hope, but this is not the right answer!');
 //   break;
-
-// case distination = 'no':
-// case distination = 'n':
-//   //console.log(distination);
-//   alert(' You are right:(');
+// case travelingNumber = 'no':
+// case travelingNumber = 'n':
+//   //console.log(travelingNumber);
+//   alert('this is correct');
 //   score++;
 //   break;
 // default:
 //   alert('please write yes/y or no/n');
 // }
+// };
+// qus3 ();
+
+// qus4
+let qus4= function () {
+let distination = prompt(' Was USA  my last disination?');
+distination = distination.toLowerCase();
+//console.log(distination);
+
+switch (distination) {
+case distination = 'yes':
+case distination = 'y':
+  // console.log(distination);
+  alert('wrong, but it is intersting country!');
+  break;
+
+case distination = 'no':
+case distination = 'n':
+  //console.log(distination);
+  alert(' You are right:(');
+  score++;
+  break;
+default:
+  alert('please write yes/y or no/n');
+} };
+qus4 ();
 
 // let cost = prompt(' Do you think my last trip coast me more than $8000?');
 // cost = cost.toLowerCase();
